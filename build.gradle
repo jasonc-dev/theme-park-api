@@ -33,7 +33,7 @@ test {
     useJUnitPlatform()
 }
 
-String imageName = "jasoncohen07/spring-boot-api-example:$version"
+String imageName = "jasoncohen07/theme-park-api:$version"
 docker {
     name imageName
     files "build/libs/${bootJar.archiveFileName.get()}"
