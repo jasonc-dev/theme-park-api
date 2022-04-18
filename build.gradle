@@ -7,7 +7,6 @@ plugins {
     id 'com.palantir.docker-run' version '0.31.0'
 }
 
-group 'org.example'
 version = scmVersion.version
 
 repositories {
